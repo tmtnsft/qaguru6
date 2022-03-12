@@ -13,9 +13,9 @@ public class SelenideTest {
     @Test
     public void testIssueSearch() {
          open("https://github.com");
-        $(".header-search-input").setValue("eroshenkoam/allure-example").pressEnter();
-        $(linkText("eroshenkoam/allure-example")).click();
+        $(".header-search-input").setValue("tmtnsft/qaguru6").pressEnter();
+        $(linkText("tmtnsft/qaguru6")).click();
         $(partialLinkText("Issues")).click();
-        $(withText("#68")).should(Condition.visible);
+        $("#issues-tab").shouldBe(Condition.visible);
     }
 }
