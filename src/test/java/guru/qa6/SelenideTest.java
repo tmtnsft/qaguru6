@@ -16,10 +16,6 @@ import static org.openqa.selenium.By.partialLinkText;
 public class SelenideTest {
 
     @Test
-    @Owner("tmtnsft")
-    @Feature("Issues")
-    @Story("Поиск таба Issues в профиле с Listener. Негативный сценарий")
-    @DisplayName("Поиск таба Issues. Негативный сценарий")
     public void testIssueSearch() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
