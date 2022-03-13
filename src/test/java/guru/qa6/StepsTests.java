@@ -11,7 +11,7 @@ import static io.qameta.allure.Allure.step;
 import static org.openqa.selenium.By.linkText;
 import static org.openqa.selenium.By.partialLinkText;
 
-public class StepsTest {
+public class StepsTests {
 
     private static final String REPOSITORY = "tmtnsft/qaguru6";
     AnnoSteps steps = new AnnoSteps();
